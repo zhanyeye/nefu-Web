@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebFilter("/*")
+@WebFilter("/ManageServlet")
 public class UserFilter implements Filter {
 	private static Logger logger = Logger.getLogger(UserFilter.class.getName());
 	

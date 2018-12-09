@@ -1,7 +1,6 @@
 package com.controller;
 
 import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,17 +10,19 @@ import javax.servlet.http.HttpServletResponse;
 import com.service.NewsService;
 import com.service.ServiceFactory;
 
-@WebServlet("/ManageServlet")
-public class ManageServlet extends HttpServlet {
 
+@WebServlet("/AddAjaxServlet")
+public class AddAjaxServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 	private NewsService newsService = ServiceFactory.getNewsService();
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setAttribute("newslist", newsService.listNews());
-		request.getRequestDispatcher("/WEB-INF/jsp/manage.jsp").forward(request, response);
+		System.out.println("hahhah");
+		request.getRequestDispatcher("/WEB-INF/jsp/ajax/add.jsp")
+		.forward(request, response);
 	}
 
-	private static final long serialVersionUID = 1L;
+
+
 }

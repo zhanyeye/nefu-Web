@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.entity.User;
+import com.service.NewsService;
+import com.service.ServiceFactory;
 import com.service.UserService;
 
 
@@ -19,11 +21,13 @@ public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private UserService userService = new UserService();
+	private NewsService newsService = ServiceFactory.getNewsService();
+
 
 	// 转发登录页面请求
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		request.setAttribute("newslist", newsService.listNews());
 		request.getRequestDispatcher("/WEB-INF/jsp/index.jsp").forward(request, response);
 	}
 

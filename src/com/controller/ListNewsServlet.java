@@ -15,17 +15,17 @@ import com.service.ServiceFactory;
 public class ListNewsServlet extends HttpServlet {
 
 	// 基于ServiceFactory工厂，获取单例的UserService组件
-		private NewsService newsService = ServiceFactory.getNewsService();
-		@Override
-		protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-			// TODO Auto-generated method stub
-			// 实现加载全部用户，并转发至/WEB-INF/jsp/index.jsp
-			
-			req.setAttribute("newslist", newsService.listNews());
-			req.getRequestDispatcher("/WEB-INF/jsp/index.jsp")
-			.forward(req, resp);
-		}
-		private static final long serialVersionUID = 1L;
+	private NewsService newsService = ServiceFactory.getNewsService();
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		// 实现加载全部用户，并转发至/WEB-INF/jsp/index.jsp
+
+		req.setAttribute("newslist", newsService.listNews());
+		req.getRequestDispatcher("/WEB-INF/jsp/index.jsp").forward(req, resp);
+	}
+
+	private static final long serialVersionUID = 1L;
 
 }
-

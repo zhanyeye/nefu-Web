@@ -66,7 +66,7 @@ public class NewsServiceImpl implements NewsService {
 	        st.setString(1, news.getTitle());
 	        st.setString(2, news.getOutline());
 	        st.setString(3, news.getContent());
-	        st.setInt(2,news.getId());
+	        st.setInt(4,news.getId());
 	        st.executeUpdate();
 	    }catch (SQLException e) {
 	      // TODO: handle exception

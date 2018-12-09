@@ -21,10 +21,19 @@ public class News {
 		
 	}
 	
-	public News(int id, String title, String content, Date insertDate) {
+	public News(int id, String title, String content, String outline) {
 		this.id = id;
 		this.title = title;
 		this.content = content;
+		this.outline = outline;
+
+	}
+	
+	public News(int id, String title, String content, String outline, Date insertDate) {
+		this.id = id;
+		this.title = title;
+		this.content = content;
+		this.outline = outline;
 		this.insertDate = insertDate;
 	}
 
