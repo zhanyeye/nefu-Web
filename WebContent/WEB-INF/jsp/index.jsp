@@ -125,10 +125,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="caption">
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
-                                <h1>Distance Learning Education Center</h1>
-                                <h3>Our online courses are designed to fit in your industry supporting all-round with
-                                    latest technologies.</h3>
-                                <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a>
+                                <h1>NEFU software Engineering</h1>
+                                <h3>Our courses are designed to fit in your industry supporting all-round with latest technologies.</h3>
+                                <a href="#feature" class="section-btn btn btn-default smoothScroll">专业介绍</a>
                             </div>
                         </div>
                     </div>
@@ -138,10 +137,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="caption">
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
-                                <h1>Start your journey with our practical courses</h1>
-                                <h3>Our online courses are built in partnership with technology leaders and are
-                                    designed to meet industry demands.</h3>
-                                <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a>
+                                <h1>NEFU software Engineering</h1>
+                                <h3>Our courses are designed to fit in your industry supporting all-round with latest technologies.</h3>
+                                <a href="#courses" class="section-btn btn btn-default smoothScroll">实验室</a>
                             </div>
                         </div>
                     </div>
@@ -151,11 +149,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="caption">
                         <div class="container">
                             <div class="col-md-6 col-sm-12">
-                                <h1>Efficient Learning Methods</h1>
-                                <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna
-                                    venenatis sollicitudin ut at libero. Visit <a href="#" target="_parent">templatemo</a>
-                                    page.</h3>
-                                <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a>
+                                <h1>NEFU software Engineering</h1>
+                                <h3>Our courses are designed to fit in your industry supporting all-round with latest technologies.</h3>
+                                <a href="#team" class="section-btn btn btn-default smoothScroll">师资力量</a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +207,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="feature-thumb">
                         <span>02</span>
                         <h3>教师队伍</h3>
-                        <p>教师队伍采用专兼结合的用人机制，现有专职教师11人，其中高级职称6人，讲师5人，博士及在读博士7人，硕士4人，其中5人具有国外留学或访学经历，此外,专业还从国内外软件企业、高校聘请兼职教师承担部分教学工作作为补充。专业教师主持或参加了多项国家、省、部、市及学校的纵向、横向科研和教研项目。获得省优秀教育科研成果奖一等奖、省优秀高等教育科学研究成果二等奖、省科技进步二等奖、三等奖、省高等学校优秀多媒体教学软件三等奖、市科技进步一等奖、省高等教育学会十一五规划课题三等奖等奖项。取得发明专利和实用新型专利8项，软件著作权10余项。累计主编和参编出版教材8部，发表论文50余篇，其中EI及ISTP检索论文30余篇。</p>
+                        <p>教师队伍采用专兼结合的用人机制，现有专职教师11人，其中高级职称6人，讲师5人，博士及在读博士7人，硕士4人，其中5人具有国外留学或访学经历，此外,专业还从国内外软件企业、高校聘请兼职教师承担部分教学工作作为补充。专业教师主持或参加了多项国家、省、部、市及学校的纵向、横向科研和教研项目。获得省优秀教育科研成果奖一等奖、省优秀高等教育科学研究成果二等奖、省科技进步二等奖、三等奖、省高等教育学会十一五规划课题三等奖等奖项。取得发明专利和实用新型专利8项，软件著作权10余项。发表论文50余篇，其中EI及ISTP检索论文30余篇。</p>
                     </div>
                 </div>
 
@@ -219,8 +215,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="feature-thumb">
                         <span>03</span>
                         <h3>实习基地</h3>
-                        <p>软件工程专业综合实验室，服务于专业的课程实验，培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。软件工程专业综合实验室下设软件工程实验室（系统开发实训基地）、嵌入式技术实验室、移动开发实验室和IOS开发实验室。主要完成基于行业标准和技术的Rational统一过程和测试、软件体系结构、面向对象技术与UML、软件需求与分析、软件测试和质量保证、移动开发和IOS开发等课程的实验。同时，依托国家级大型软件企业，建立了校企合作的实习、实训基地。利用企业项目对学生进行有针对性的能力培训，让学生综合运用所学知识，培养其独立分析、解决实际问题的能力。
-                            专业目前已经建立了沈阳东软、亿阳信通股份有限公司、中关村软件园、大连软件信息产业园等实习基地。</p>
+                        <p>软件工程专业综合实验室，服务于专业的课程实验，培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。软件工程专业综合实验室下设软件工程实验室、嵌入式技术实验室、移动开发实验室和IOS开发实验室。主要完成基于行业标准和技术的Rational统一过程和测试、软件体系结构、软件测试和质量保证、移动开发和IOS开发等课程的实验。同时，依托国家级大型软件企业，建立校企合作的实习、实训基地。利用企业项目对学生进行有针对性的能力培训，专业目前已经建立了沈阳东软、亿阳信通股份有限公司、中关村软件园、大连软件信息产业园等实习基地。</p>
                     </div>
                 </div>
 
@@ -248,7 +243,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <div style="overflow:auto;height: 300px;">
                                 <ul class="list-group">
                                     <c:forEach items="${newslist}" var="n">
-                                        <li class="list-group-item "><a href="GetNewsServlet?nid=${n.id}">${n.title}</a></li>
+                                        <li class="list-group-item "><span><fmt:formatDate pattern="yyyy-MM-dd" value="${n.insertdate }"/></span> &nbsp;&nbsp;&nbsp;&nbsp;  <a href="GetNewsServlet?nid=${n.id}">${n.title}</a></li>
                                     </c:forEach>
                                 </ul>
                             </div>
@@ -367,7 +362,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>I love Teaching</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                                    <li><a    class="fa fa-twitter"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -382,7 +377,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>Education is the key!</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-google"></a></li>
+                                                    <li><a    class="fa fa-google"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -403,7 +398,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>I like Online Courses</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                                    <li><a    class="fa fa-envelope-o"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -418,7 +413,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>Learning is fun</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-google"></a></li>
+                                                    <li><a    class="fa fa-google"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -438,7 +433,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>I love Teaching</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                                    <li><a    class="fa fa-twitter"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -453,7 +448,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>Education is the key!</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-google"></a></li>
+                                                    <li><a    class="fa fa-google"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -475,7 +470,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                                     <span>Learning is fun</span>
                                                 </div>
                                                 <ul class="social-icon">
-                                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                                    <li><a    class="fa fa-twitter"></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -519,17 +514,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">物联网实验室</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3><a   >物联网实验室</a></h3>
+                                        <p>物联网系统设计、智能传感器、智能家居、智能物流</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="images/t1.jpg" class="img-responsive" alt="">
-                                            <span>Mark Wilson</span>
+                                            <%-- <span>Mark Wilson</span> --%>
                                         </div>
                                         <div class="courses-price">
-                                            <a href="#"><span>USD 25</span></a>
+                                            <a   ><span>国家级实验室</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -549,17 +544,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">IOS实验室</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3><a   >IOS实验室</a></h3>
+                                        <p>iOS平台产品研发、运营、安全性研究</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="images/t2.jpg" class="img-responsive" alt="">
-                                            <span>Jessica</span>
+                                            <%-- <span>Jessica</span> --%>
                                         </div>
                                         <div class="courses-price">
-                                            <a href="#"><span>USD 80</span></a>
+                                            <a   ><span>国家级实验室</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -579,17 +574,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">大数据实验室</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3><a   >大数据实验室</a></h3>
+                                        <p>研究方向涵盖大数据算法、大数据系统、大数据应用等</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="images/t3.jpg" class="img-responsive" alt="">
-                                            <span>Catherine</span>
+                                            <%-- <span>Catherine</span> --%>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="#"><span>Free</span></a>
+                                            <a   ><span>省级实验室</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -609,17 +604,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">网络实验室</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3><a   >网络实验室</a></h3>
+                                        <p>研究方向有未来网络系统结构、网络安全等</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="images/t1.jpg" class="img-responsive" alt="">
-                                            <span>Mark Wilson</span>
+                                            <%-- <span>Mark Wilson</span> --%>
                                         </div>
                                         <div class="courses-price">
-                                            <a href="#"><span>USD 45</span></a>
+                                            <a   ><span>国家级实验室</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -639,17 +634,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     </div>
 
                                     <div class="courses-detail">
-                                        <h3><a href="#">嵌入式实验室</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3><a   >嵌入式实验室</a></h3>
+                                        <p>嵌入式技术、服务计算、信息传输与融合、智能信息应用技术等</p>
                                     </div>
 
                                     <div class="courses-info">
                                         <div class="courses-author">
                                             <img src="images/t2.jpg" class="img-responsive" alt="">
-                                            <span>Jessica</span>
+                                            <%-- <span>Jessica</span> --%>
                                         </div>
                                         <div class="courses-price free">
-                                            <a href="#"><span>Free</span></a>
+                                            <a   ><span>省级实验室</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -681,11 +676,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     <img src="images/tst-image1.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Jackson</h4>
-                                    <span>Shopify Developer</span>
+                                    <h4>胖虎虎</h4>
+                                    <span>滴滴 &nbsp;前端工程师</span>
                                 </div>
-                                <p>You really do help young creative minds to get quality education and professional
-                                    job search assistance. I’d recommend it to everyone!</p>
+                                <p class="p_student">东北林业大学软件工程专业2016届毕业生。现工作于滴滴，担任前端工程师，主要从事前后端相关工作。</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -702,11 +696,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     <img src="images/tst-image2.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Camila</h4>
-                                    <span>Marketing Manager</span>
+                                    <h4>大大雄</h4>
+                                    <span>阿里 &nbsp;算法工程师</span>
                                 </div>
-                                <p>Trying something new is exciting! Thanks for the amazing law course and the great
-                                    teacher who was able to make it interesting.</p>
+                                <p class="p_student">东北林业大学软件工程专业2015届毕业生。现工作于阿里巴巴淘宝直通车技术部，担任算法工程师，主要从事直通车广告算法优化相关工作。</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -721,11 +714,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     <img src="images/tst-image3.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Barbie</h4>
-                                    <span>Art Director</span>
+                                    <h4>大小夫</h4>
+                                    <span>百度 &nbsp;WEB工程师</span>
                                 </div>
-                                <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin
-                                    quis felis vitae hendrerit.</p>
+                                <p class="p_student">东北林业大学软件工程专业2014届毕业生。现工作于百度，担任WEB工程师，主要从事相关工作。</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -741,11 +733,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                     <img src="images/tst-image4.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="tst-author">
-                                    <h4>Andrio</h4>
-                                    <span>Web Developer</span>
+                                    <h4>大静香</h4>
+                                    <span>腾讯 &nbsp;腾讯</span>
                                 </div>
-                                <p>Nam eget mi eu ante faucibus viverra nec sed magna. Vivamus viverra sapien ex,
-                                    elementum varius ex sagittis vel.</p>
+                                <p class="p_student">东北林业大学软件工程专业2015届毕业生。现工作于腾讯游戏事业部，担任腾讯，主要从事相关游戏编程工作。</p>
                                 <div class="tst-rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -771,16 +762,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
-                            <h2>Address</h2>
+                            <h2>地址</h2>
                         </div>
                         <address>
                             <p>中国 黑龙江 哈尔滨,<br> 香坊区 和兴路26号 东北林业大学</p>
                         </address>
 
                         <ul class="social-icon">
-                            <li><a href="#" class="fa fa-facebook-square"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a    class="fa fa-facebook-square"></a></li>
+                            <li><a    class="fa fa-twitter"></a></li>
+                            <li><a    class="fa fa-instagram"></a></li>
                         </ul>
 
                         <div class="copyright-text">
@@ -792,20 +783,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-info">
                         <div class="section-title">
-                            <h2>Contact Info</h2>
+                            <h2>联系方式</h2>
                         </div>
                         <address>
-                            <p>12345678</p>
+                            <p>QQ:2693166516</p>
                             <p><a href="mailto:zhanyeye@qq.com">zhanyeye@qq.com</a></p>
                         </address>
 
                         <div class="footer_menu">
-                            <h2>Quick Links</h2>
+                            <h2>相关连接</h2>
                             <ul>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">Investor</a></li>
-                                <li><a href="#">Terms Conditions</a></li>
-                                <li><a href="#">Refund Policy</a></li>
+                                <li><a href="http://icec.nefu.edu.cn/">信息与计算机工程学院</a></li>
+                                <li><a href="http://cas.nefu.edu.cn/cas/login">数字东林</a></li>
+                                <li><a href="https://www.nefu.edu.cn/">东北林业大学</a></li>
+                                <li><a href="http://www.edu.cn/">中国教育和科研计算机网</a></li>
                             </ul>
                         </div>
                     </div>
@@ -814,16 +805,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <div class="col-md-4 col-sm-12">
                     <div class="footer-info newsletter-form">
                         <div class="section-title">
-                            <h2>Newsletter Signup</h2>
+                            <h2>联系我们</h2>
                         </div>
                         <div>
                             <div class="form-group">
-                                <form action="#" method="get">
-                                    <input type="email" class="form-control" placeholder="Enter your email" name="email"
+                                <form  method="get">
+                                    <input type="email" class="form-control" placeholder="输入您的电子邮件" name="email"
                                         id="email">
-                                    <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
+                                    <input type="button" class="form-control" name="submit" id="form-submit" value="发送">
                                 </form>
-                                <span><sup>*</sup> Please note - we do not spam your email.</span>
+                                <span><sup>*</sup> 　我们不会向您滥发电子邮件。</span>
                             </div>
                         </div>
                     </div>

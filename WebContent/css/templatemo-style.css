@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+  /* @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito'); */
 
   body {
     background: #ffffff;
@@ -637,7 +637,7 @@
   }
 
   #testimonial .item > p {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 26px;
   }
 
@@ -1118,4 +1118,3 @@
   .modalpic {
     color: #29ca8e
   }
-

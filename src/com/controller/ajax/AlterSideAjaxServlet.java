@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.ajax;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

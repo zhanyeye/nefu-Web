@@ -17,5 +17,7 @@ public interface NewsService {
 
 	// 获取指定新闻
 	public News getNews(int id);
-
+	
+	//删除指定新闻
+	public void deteleNews(int id);
 }

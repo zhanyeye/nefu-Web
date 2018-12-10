@@ -22,10 +22,7 @@ public class UpdateNewsServlet extends HttpServlet {
 	    String title = request.getParameter("title");
 	    String outline = request.getParameter("outline");
 	    String content = request.getParameter("content");
-	    System.out.println(id);
-	    System.out.println(title);
-	    System.out.println(outline);
-	    System.out.println(content);
+
 	    News news = new News(id, title, content, outline);
 	    newsService.updateNews(news);
 //	    response.sendRedirect(request.getContextPath() + "/ManageServlet");

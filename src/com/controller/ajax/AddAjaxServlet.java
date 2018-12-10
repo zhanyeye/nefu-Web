@@ -1,7 +1,6 @@
-package com.controller;
+package com.controller.ajax;
 
 import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,18 +11,18 @@ import com.service.NewsService;
 import com.service.ServiceFactory;
 
 
-@WebServlet("/AlterAjaxServlet")
-public class AlterAjaxServlet extends HttpServlet {
-	
-	NewsService newsService = ServiceFactory.getNewsService();
+@WebServlet("/AddAjaxServlet")
+public class AddAjaxServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private NewsService newsService = ServiceFactory.getNewsService();
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		int id= Integer.valueOf(request.getParameter("nid"));
-		request.setAttribute("news", newsService.getNews(id));
-
-		request.getRequestDispatcher("/WEB-INF/jsp/ajax/update.jsp")
+		request.setAttribute("newslist", newsService.listNews());
+		System.out.println("AddAjaxServlet");
+		request.getRequestDispatcher("/WEB-INF/jsp/ajax/add.jsp")
 		.forward(request, response);
 	}
-	private static final long serialVersionUID = 1L;
+
+
+
 }

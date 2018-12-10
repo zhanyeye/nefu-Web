@@ -7,21 +7,27 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.service.NewsService;
+import com.service.ServiceFactory;
 
 @WebServlet("/DeleteNewsServlet")
 public class DeleteNewsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
+	private NewsService newsService = ServiceFactory.getNewsService();
 
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		System.out.println("DeleteNewsServlet");
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		String del[] = request.getParameterValues("delete");
+		for (int i = 0; i < del.length; i++) {
+			System.out.println(del[i]);
+
+			newsService.deteleNews(Integer.parseInt(del[i]));
+		}
+
 	}
 
 }

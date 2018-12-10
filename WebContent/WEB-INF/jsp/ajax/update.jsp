@@ -4,7 +4,7 @@
 	<div class="form-group">
 		<label for="title" class="col-sm-1 control-label">标题</label>
 		<div class="col-sm-10">
-			<input type="hidden" name="newid" value="${news.id}">
+			<input type="hidden" id="update_id_input" name="newid" value="${news.id}">
 			<input type="text" name="title" class="form-control" id="title" value="${news.title}" placeholder="Title">
 		</div>
 	</div>

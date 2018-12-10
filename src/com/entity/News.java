@@ -7,6 +7,8 @@ public class News {
 	private String title;
 	private String content;
 	private String outline;
+	private Date insertdate;
+	
 	public String getOutline() {
 		return outline;
 	}
@@ -14,8 +16,6 @@ public class News {
 	public void setOutline(String outline) {
 		this.outline = outline;
 	}
-
-	private Date insertDate;
 	
 	public News() {
 		
@@ -26,15 +26,14 @@ public class News {
 		this.title = title;
 		this.content = content;
 		this.outline = outline;
-
 	}
 	
-	public News(int id, String title, String content, String outline, Date insertDate) {
+	public News(int id, String title, String content, String outline, Date insertdate) {
 		this.id = id;
 		this.title = title;
 		this.content = content;
 		this.outline = outline;
-		this.insertDate = insertDate;
+		this.insertdate = insertdate;
 	}
 
 	public int getId() {
@@ -61,12 +60,13 @@ public class News {
 		this.content = content;
 	}
 
-	public Date getInsertDate() {
-		return insertDate;
+	public Date getInsertdate() {
+		return insertdate;
 	}
 
-	public void setInsertDate(Date insertDate) {
-		this.insertDate = insertDate;
+	public void setInsertdate(Date insertdate) {
+		this.insertdate = insertdate;
 	}
+
 	
 }

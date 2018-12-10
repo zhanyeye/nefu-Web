@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.ajax;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -10,19 +10,17 @@ import javax.servlet.http.HttpServletResponse;
 import com.service.NewsService;
 import com.service.ServiceFactory;
 
-
-@WebServlet("/AddAjaxServlet")
-public class AddAjaxServlet extends HttpServlet {
+@WebServlet("/DeleteAjaxServlet")
+public class DeleteAjaxServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private NewsService newsService = ServiceFactory.getNewsService();
+	NewsService newsService = ServiceFactory.getNewsService();
 	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		request.setAttribute("newslist", newsService.listNews());
-		System.out.println("hahhah");
-		request.getRequestDispatcher("/WEB-INF/jsp/ajax/add.jsp")
-		.forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/jsp/ajax/delete.jsp").forward(request, response);
 	}
-
-
 
 }

@@ -31,42 +31,44 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 </head>
 
-<body>
+<body style="padding-top: 0px;">
 
     <!-- 模态框（Modal） -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" style="width:500px">
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-user-o"></i> 管理员登录</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-1 modalpic">
-                                <span><i class="fa fa-user-o"></i></span>
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="text" class="form-control" placeholder="username">
-                            </div>
-                        </div>
-                        <br />
-                        <div class="row">
-                            <div class="col-sm-1 modalpic">
-                                <span><i class="fa fa-keyboard-o"></i></span>
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="password" class="form-control" placeholder="password">
-                            </div>
-                        </div>
+                <form action="login" method="POST">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-user-o"></i> 管理员登录</h4>
                     </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-1 modalpic">
+                                    <span><i class="fa fa-user-o"></i></span>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" name="username" placeholder="username">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-sm-1 modalpic">
+                                    <span><i class="fa fa-keyboard-o"></i></span>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="password" class="form-control" name="password" placeholder="password">
+                                </div>
+                            </div>
+                        </div>
 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success">登录</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="submit" class="btn btn-primary">登录</button>
+                    </div>
+                </form>
             </div><!-- /.modal-content -->
         </div><!-- /.modal -->
     </div>
