@@ -23,3 +23,6 @@
 ![lab](./exhibition_image/lab.png)
 + 优秀毕业生
 ![graduates](./exhibition_image/graduates.png)
+
+###### 最后
++ 能做出来多亏室友教我用 `bootstrap`，真的是越厉害的人越乐于助人!!!(^~^)
